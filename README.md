@@ -1,19 +1,16 @@
 # 🌟 **Pokedex App** 🌟
 
-¡Bienvenido a la **Pokedex App**! 🐾 Una aplicación multiplataforma construida con **Kotlin Multiplatform**, que te permite explorar y descubrir tus Pokémon favoritos. 🎮✨
+Welcome to the **Pokedex App**! 🐾 A multiplatform application built with **Kotlin Multiplatform** that allows you to explore and discover your favorite Pokémon. 🎮✨
 
-## 📱 **Características**
+## 📱 **Features**
 
-- **Multiplataforma**: Disponible en **Android** e **iOS**. 🌐
-- **Explora Pokémon**: Consulta una lista de 150 Pokémon. 📖
-- **Interfaz Nativa**: Diseñado en JetPack y SwiftUI. 🎨
-- **Actualizaciones de Datos**: Obtiene datos actualizados directamente de PokeAPI. 🔄
+- **Multiplatform**: Available on **Android** and **iOS**. 🌐
+- **Explore Pokémon**: View a list of 150 Pokémon with interesting details. 📖
+- **User-Friendly Interface**: Designed to be intuitive and easy to use. 🎨
+- **Data Updates**: Get up-to-date information directly from PokeAPI. 🔄
 
-## 🚀 **Tecnologías Utilizadas**
+## 🚀 **Technologies Used**
 
-- **Kotlin Multiplatform**: Desarrolla aplicaciones para múltiples plataformas con un solo código. ⚙️
-- **Ktor**: Cliente HTTP asíncrono para realizar solicitudes a la API. 🌐
-- **Kotlinx Serialization**: Para la serialización y deserialización de datos JSON. 📦
-
- 
-
+- **Kotlin Multiplatform**: Develop applications for multiple platforms with a single codebase. ⚙️
+- **Ktor**: Asynchronous HTTP client for making API requests. 🌐
+- **Kotlinx Serialization**: For serializing and deserializing JSON data. 📦
