@@ -1,0 +1,4 @@
+#Thu Oct 31 11:37:54 CET 2024
+base.0=/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex

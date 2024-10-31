@@ -1,0 +1,9 @@
+org.parris.pokedexkm.shared-pngs-0 /Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/shared/build/generated/res/pngs/release
+org.parris.pokedexkm.shared-resValues-1 /Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/shared/build/generated/res/resValues/release
+org.parris.pokedexkm.shared-mergeReleaseResources-2 /Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/shared/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
+org.parris.pokedexkm.shared-mergeReleaseResources-3 /Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/shared/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+org.parris.pokedexkm.shared-release-4 /Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/shared/build/intermediates/merged_res/release/mergeReleaseResources
+org.parris.pokedexkm.shared-androidMain-5 /Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/shared/src/androidMain/res
+org.parris.pokedexkm.shared-androidRelease-6 /Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/shared/src/androidRelease/res
+org.parris.pokedexkm.shared-main-7 /Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/shared/src/main/res
+org.parris.pokedexkm.shared-release-8 /Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/shared/src/release/res

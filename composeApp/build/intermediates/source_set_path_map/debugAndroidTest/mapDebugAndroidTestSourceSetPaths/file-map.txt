@@ -1,0 +1,4 @@
+org.parris.pokedexkm.test.composeApp-androidTest-0 /Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/generated/res/resValues/androidTest/debug
+org.parris.pokedexkm.test.composeApp-mergeDebugAndroidTestResources-1 /Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+org.parris.pokedexkm.test.composeApp-mergeDebugAndroidTestResources-2 /Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+org.parris.pokedexkm.test.composeApp-debugAndroidTest-3 /Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

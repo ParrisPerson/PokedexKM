@@ -1,0 +1,72 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "7b79493a8b7fc1f2fff3c51cd12ba02458e8d963a07eeba4ac05a175c12568b7"
+    }
+  ],
+  "containerPath" : "/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/iosApp/iosApp.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator18.1",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/parris.person/Library/Developer/Xcode/DerivedData/iosApp-ftbeuogelfpeyvemeeilxcgqkeyo/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/parris.person/Library/Developer/Xcode/DerivedData/iosApp-ftbeuogelfpeyvemeeilxcgqkeyo/Build/Products",
+      "derivedDataPath" : "/Users/parris.person/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/parris.person/Library/Developer/Xcode/DerivedData/iosApp-ftbeuogelfpeyvemeeilxcgqkeyo/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/parris.person/Library/Developer/Xcode/DerivedData/iosApp-ftbeuogelfpeyvemeeilxcgqkeyo/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/parris.person/Library/Developer/Xcode/DerivedData/iosApp-ftbeuogelfpeyvemeeilxcgqkeyo/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "OBJROOT" : "/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/build/ios",
+          "SYMROOT" : "/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/build/ios"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone15,4",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "18.1",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone15,4",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ONLY_ACTIVE_ARCH" : "YES",
+          "TARGET_DEVICE_IDENTIFIER" : "4CAAEB52-C1D5-4FFD-8E2E-6FDDA633C582",
+          "TARGET_DEVICE_MODEL" : "iPhone15,4",
+          "TARGET_DEVICE_OS_VERSION" : "18.1",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
