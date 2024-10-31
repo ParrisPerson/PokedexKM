@@ -5,8 +5,8 @@
 ## 📱 **Características**
 
 - **Multiplataforma**: Disponible en **Android** e **iOS**. 🌐
-- **Explora Pokémon**: Consulta una lista de 150 Pokémon con detalles interesantes. 📖
-- **Interfaz Amigable**: Diseñada para ser intuitiva y fácil de usar. 🎨
+- **Explora Pokémon**: Consulta una lista de 150 Pokémon. 📖
+- **Interfaz Nativa**: Diseñado en JetPack y SwiftUI. 🎨
 - **Actualizaciones de Datos**: Obtiene datos actualizados directamente de PokeAPI. 🔄
 
 ## 🚀 **Tecnologías Utilizadas**
@@ -15,10 +15,5 @@
 - **Ktor**: Cliente HTTP asíncrono para realizar solicitudes a la API. 🌐
 - **Kotlinx Serialization**: Para la serialización y deserialización de datos JSON. 📦
 
-## 📦 **Cómo Configurar el Proyecto**
-
-1. **Clona el repositorio**:
-   ```bash
-   git clone https://github.com/tu-usuario/pokedex-app.git
-   cd pokedex-app
+ 
 
