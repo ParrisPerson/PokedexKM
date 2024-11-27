@@ -217,11 +217,12 @@ __attribute__((swift_name("NetworkUtils")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Pokemon")))
 @interface SharedPokemon : SharedBase
-- (instancetype)initWithName:(NSString *)name __attribute__((swift_name("init(name:)"))) __attribute__((objc_designated_initializer));
-- (SharedPokemon *)doCopyName:(NSString *)name __attribute__((swift_name("doCopy(name:)")));
+- (instancetype)initWithName:(NSString *)name imageUrl:(NSString *)imageUrl __attribute__((swift_name("init(name:imageUrl:)"))) __attribute__((objc_designated_initializer));
+- (SharedPokemon *)doCopyName:(NSString *)name imageUrl:(NSString *)imageUrl __attribute__((swift_name("doCopy(name:imageUrl:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *imageUrl __attribute__((swift_name("imageUrl")));
 @property (readonly) NSString *name __attribute__((swift_name("name")));
 @end
 

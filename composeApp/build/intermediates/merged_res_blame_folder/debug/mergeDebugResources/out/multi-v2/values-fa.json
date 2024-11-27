@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "org.parris.pokedexkm.composeApp-mergeDebugResources-42:/values-fa/values-fa.xml",
+            "outputFile": "org.parris.pokedexkm.composeApp-mergeDebugResources-44:/values-fa/values-fa.xml",
             "map": [
                 {
-                    "source": "/Users/parris.person/.gradle/caches/8.9/transforms/7d29997699d300ec419d20a56918e5cd/transformed/foundation-release/res/values-fa/values-fa.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,144",
-                        "endColumns": "88,88",
-                        "endOffsets": "139,228"
-                    },
-                    "to": {
-                        "startLines": "28,29",
-                        "startColumns": "4,4",
-                        "startOffsets": "2444,2533",
-                        "endColumns": "88,88",
-                        "endOffsets": "2528,2617"
-                    }
-                },
-                {
-                    "source": "/Users/parris.person/.gradle/caches/8.9/transforms/1e5ee1a10b9a94ad8d9714e9908ffb82/transformed/ui-release/res/values-fa/values-fa.xml",
+                    "source": "/Users/parris.person/.gradle/caches/8.9/transforms/faa89c966c062070c6f983497e5f763f/transformed/ui-release/res/values-fa/values-fa.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/parris.person/.gradle/caches/8.9/transforms/011287695d607970d0ca3f9b468072c4/transformed/core-1.13.1/res/values-fa/values-fa.xml",
+                    "source": "/Users/parris.person/.gradle/caches/8.9/transforms/11ff72a13e8865bc58580c555fa59059/transformed/core-1.13.1/res/values-fa/values-fa.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -52,6 +35,23 @@
                         "startOffsets": "105,204,306,405,505,606,712,2084",
                         "endColumns": "98,101,98,99,100,105,116,100",
                         "endOffsets": "199,301,400,500,601,707,824,2180"
+                    }
+                },
+                {
+                    "source": "/Users/parris.person/.gradle/caches/8.9/transforms/abe1312ec98aae5021f2c3787d8c04c5/transformed/foundation-release/res/values-fa/values-fa.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,144",
+                        "endColumns": "88,88",
+                        "endOffsets": "139,228"
+                    },
+                    "to": {
+                        "startLines": "28,29",
+                        "startColumns": "4,4",
+                        "startOffsets": "2444,2533",
+                        "endColumns": "88,88",
+                        "endOffsets": "2528,2617"
                     }
                 }
             ]
