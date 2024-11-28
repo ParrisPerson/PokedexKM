@@ -9,7 +9,7 @@ struct ContentView: View {
     var body: some View {
         Text("PokeDex")
         List(pokemonList, id: \.name) { pokemon in
-            Text(pokemon.name)
+             PokeCell(pokemon: pokemon, size: 150)
         }
         .onAppear {
             viewModel.pokemonList.watch { list in

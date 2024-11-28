@@ -6,7 +6,7 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class SharedKtor_client_coreHttpClient, SharedNetworkUtils, SharedPokemon, SharedPokemonResult, SharedPokemonListResponseCompanion, SharedPokemonListResponse, SharedPokemonResultCompanion, SharedCommonFlow<T>, SharedKotlinThrowable, SharedKotlinArray<T>, SharedKotlinException, SharedKotlinRuntimeException, SharedKotlinIllegalStateException, SharedKtor_client_coreHttpClientEngineConfig, SharedKtor_client_coreHttpClientConfig<T>, SharedKtor_eventsEvents, SharedKtor_client_coreHttpReceivePipeline, SharedKtor_client_coreHttpRequestPipeline, SharedKtor_client_coreHttpResponsePipeline, SharedKtor_client_coreHttpSendPipeline, SharedKtor_client_coreHttpRequestData, SharedKtor_client_coreHttpResponseData, SharedKotlinx_coroutines_coreCoroutineDispatcher, SharedKtor_client_coreProxyConfig, SharedKtor_utilsAttributeKey<T>, SharedKtor_eventsEventDefinition<T>, SharedKtor_utilsPipelinePhase, SharedKtor_utilsPipeline<TSubject, TContext>, SharedKtor_client_coreHttpReceivePipelinePhases, SharedKtor_client_coreHttpResponse, SharedKotlinUnit, SharedKtor_client_coreHttpRequestPipelinePhases, SharedKtor_client_coreHttpRequestBuilder, SharedKtor_client_coreHttpResponsePipelinePhases, SharedKtor_client_coreHttpResponseContainer, SharedKtor_client_coreHttpClientCall, SharedKtor_client_coreHttpSendPipelinePhases, SharedKotlinx_serialization_coreSerializersModule, SharedKotlinx_serialization_coreSerialKind, SharedKotlinNothing, SharedKtor_httpUrl, SharedKtor_httpHttpMethod, SharedKtor_httpOutgoingContent, SharedKtor_httpHttpStatusCode, SharedKtor_utilsGMTDate, SharedKtor_httpHttpProtocolVersion, SharedKotlinAbstractCoroutineContextElement, SharedKotlinx_coroutines_coreCoroutineDispatcherKey, SharedKtor_httpHeadersBuilder, SharedKtor_client_coreHttpRequestBuilderCompanion, SharedKtor_httpURLBuilder, SharedKtor_utilsTypeInfo, SharedKtor_client_coreHttpClientCallCompanion, SharedKtor_httpUrlCompanion, SharedKtor_httpURLProtocol, SharedKtor_httpHttpMethodCompanion, SharedKtor_httpContentType, SharedKotlinCancellationException, SharedKtor_httpHttpStatusCodeCompanion, SharedKtor_utilsGMTDateCompanion, SharedKtor_utilsWeekDay, SharedKtor_utilsMonth, SharedKtor_httpHttpProtocolVersionCompanion, SharedKotlinAbstractCoroutineContextKey<B, E>, SharedKtor_ioMemory, SharedKtor_ioChunkBuffer, SharedKtor_ioBuffer, SharedKotlinByteArray, SharedKtor_ioByteReadPacket, SharedKtor_utilsStringValuesBuilderImpl, SharedKtor_httpURLBuilderCompanion, SharedKtor_httpURLProtocolCompanion, SharedKtor_httpHeaderValueParam, SharedKtor_httpHeaderValueWithParametersCompanion, SharedKtor_httpHeaderValueWithParameters, SharedKtor_httpContentTypeCompanion, SharedKotlinEnumCompanion, SharedKotlinEnum<E>, SharedKtor_utilsWeekDayCompanion, SharedKtor_utilsMonthCompanion, SharedKtor_ioMemoryCompanion, SharedKtor_ioBufferCompanion, SharedKtor_ioChunkBufferCompanion, SharedKotlinByteIterator, SharedKtor_ioInputCompanion, SharedKtor_ioInput, SharedKtor_ioByteReadPacketCompanion, SharedKotlinKTypeProjection, SharedKotlinKVariance, SharedKotlinKTypeProjectionCompanion;
+@class SharedKtor_client_coreHttpClient, SharedNetworkUtils, SharedShowdownSprites, SharedOtherSpritesCompanion, SharedOtherSprites, SharedPokemon, SharedPokemonSprites, SharedPokemonDetailsResponseCompanion, SharedPokemonDetailsResponse, SharedPokemonResult, SharedPokemonListResponseCompanion, SharedPokemonListResponse, SharedPokemonResultCompanion, SharedPokemonSpritesCompanion, SharedCommonFlow<T>, SharedShowdownSpritesCompanion, SharedKotlinThrowable, SharedKotlinArray<T>, SharedKotlinException, SharedKotlinRuntimeException, SharedKotlinIllegalStateException, SharedKtor_client_coreHttpClientEngineConfig, SharedKtor_client_coreHttpClientConfig<T>, SharedKtor_eventsEvents, SharedKtor_client_coreHttpReceivePipeline, SharedKtor_client_coreHttpRequestPipeline, SharedKtor_client_coreHttpResponsePipeline, SharedKtor_client_coreHttpSendPipeline, SharedKtor_client_coreHttpRequestData, SharedKtor_client_coreHttpResponseData, SharedKotlinx_coroutines_coreCoroutineDispatcher, SharedKtor_client_coreProxyConfig, SharedKtor_utilsAttributeKey<T>, SharedKtor_eventsEventDefinition<T>, SharedKtor_utilsPipelinePhase, SharedKtor_utilsPipeline<TSubject, TContext>, SharedKtor_client_coreHttpReceivePipelinePhases, SharedKtor_client_coreHttpResponse, SharedKotlinUnit, SharedKtor_client_coreHttpRequestPipelinePhases, SharedKtor_client_coreHttpRequestBuilder, SharedKtor_client_coreHttpResponsePipelinePhases, SharedKtor_client_coreHttpResponseContainer, SharedKtor_client_coreHttpClientCall, SharedKtor_client_coreHttpSendPipelinePhases, SharedKotlinx_serialization_coreSerializersModule, SharedKotlinx_serialization_coreSerialKind, SharedKotlinNothing, SharedKtor_httpUrl, SharedKtor_httpHttpMethod, SharedKtor_httpOutgoingContent, SharedKtor_httpHttpStatusCode, SharedKtor_utilsGMTDate, SharedKtor_httpHttpProtocolVersion, SharedKotlinAbstractCoroutineContextElement, SharedKotlinx_coroutines_coreCoroutineDispatcherKey, SharedKtor_httpHeadersBuilder, SharedKtor_client_coreHttpRequestBuilderCompanion, SharedKtor_httpURLBuilder, SharedKtor_utilsTypeInfo, SharedKtor_client_coreHttpClientCallCompanion, SharedKtor_httpUrlCompanion, SharedKtor_httpURLProtocol, SharedKtor_httpHttpMethodCompanion, SharedKtor_httpContentType, SharedKotlinCancellationException, SharedKtor_httpHttpStatusCodeCompanion, SharedKtor_utilsGMTDateCompanion, SharedKtor_utilsWeekDay, SharedKtor_utilsMonth, SharedKtor_httpHttpProtocolVersionCompanion, SharedKotlinAbstractCoroutineContextKey<B, E>, SharedKtor_ioMemory, SharedKtor_ioChunkBuffer, SharedKtor_ioBuffer, SharedKotlinByteArray, SharedKtor_ioByteReadPacket, SharedKtor_utilsStringValuesBuilderImpl, SharedKtor_httpURLBuilderCompanion, SharedKtor_httpURLProtocolCompanion, SharedKtor_httpHeaderValueParam, SharedKtor_httpHeaderValueWithParametersCompanion, SharedKtor_httpHeaderValueWithParameters, SharedKtor_httpContentTypeCompanion, SharedKotlinEnumCompanion, SharedKotlinEnum<E>, SharedKtor_utilsWeekDayCompanion, SharedKtor_utilsMonthCompanion, SharedKtor_ioMemoryCompanion, SharedKtor_ioBufferCompanion, SharedKtor_ioChunkBufferCompanion, SharedKotlinByteIterator, SharedKtor_ioInputCompanion, SharedKtor_ioInput, SharedKtor_ioByteReadPacketCompanion, SharedKotlinKTypeProjection, SharedKotlinKVariance, SharedKotlinKTypeProjectionCompanion;
 
 @protocol SharedKotlinx_coroutines_coreFlowCollector, SharedKotlinx_coroutines_coreFlow, SharedKtor_ioCloseable, SharedHttpClientProvider, SharedPlatform, SharedKotlinx_serialization_coreKSerializer, SharedKotlinx_coroutines_coreCoroutineScope, SharedKotlinCoroutineContext, SharedKtor_client_coreHttpClientEngine, SharedKtor_client_coreHttpClientEngineCapability, SharedKtor_utilsAttributes, SharedKotlinx_serialization_coreEncoder, SharedKotlinx_serialization_coreSerialDescriptor, SharedKotlinx_serialization_coreSerializationStrategy, SharedKotlinx_serialization_coreDecoder, SharedKotlinx_serialization_coreDeserializationStrategy, SharedKotlinIterator, SharedKotlinCoroutineContextElement, SharedKotlinCoroutineContextKey, SharedKtor_client_coreHttpClientPlugin, SharedKotlinx_coroutines_coreDisposableHandle, SharedKotlinSuspendFunction2, SharedKotlinx_serialization_coreCompositeEncoder, SharedKotlinAnnotation, SharedKotlinx_serialization_coreCompositeDecoder, SharedKtor_httpHeaders, SharedKotlinx_coroutines_coreJob, SharedKotlinContinuation, SharedKotlinContinuationInterceptor, SharedKotlinx_coroutines_coreRunnable, SharedKotlinFunction, SharedKtor_httpHttpMessage, SharedKtor_ioByteReadChannel, SharedKtor_httpHttpMessageBuilder, SharedKtor_client_coreHttpRequest, SharedKotlinx_serialization_coreSerializersModuleCollector, SharedKotlinKClass, SharedKtor_httpParameters, SharedKotlinMapEntry, SharedKtor_utilsStringValues, SharedKotlinx_coroutines_coreChildHandle, SharedKotlinx_coroutines_coreChildJob, SharedKotlinSequence, SharedKotlinx_coroutines_coreSelectClause0, SharedKotlinComparable, SharedKtor_ioReadSession, SharedKotlinSuspendFunction1, SharedKotlinAppendable, SharedKtor_utilsStringValuesBuilder, SharedKtor_httpParametersBuilder, SharedKotlinKType, SharedKotlinKDeclarationContainer, SharedKotlinKAnnotatedElement, SharedKotlinKClassifier, SharedKotlinx_coroutines_coreParentJob, SharedKotlinx_coroutines_coreSelectInstance, SharedKotlinx_coroutines_coreSelectClause, SharedKtor_ioObjectPool;
 
@@ -214,6 +214,33 @@ __attribute__((swift_name("NetworkUtils")))
 @property (readonly) SharedKtor_client_coreHttpClient *httpClient __attribute__((swift_name("httpClient")));
 @end
 
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OtherSprites")))
+@interface SharedOtherSprites : SharedBase
+- (instancetype)initWithShowdown:(SharedShowdownSprites * _Nullable)showdown __attribute__((swift_name("init(showdown:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedOtherSpritesCompanion *companion __attribute__((swift_name("companion")));
+- (SharedOtherSprites *)doCopyShowdown:(SharedShowdownSprites * _Nullable)showdown __attribute__((swift_name("doCopy(showdown:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) SharedShowdownSprites * _Nullable showdown __attribute__((swift_name("showdown")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OtherSprites.Companion")))
+@interface SharedOtherSpritesCompanion : SharedBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedOtherSpritesCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Pokemon")))
 @interface SharedPokemon : SharedBase
@@ -224,6 +251,34 @@ __attribute__((swift_name("Pokemon")))
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString *imageUrl __attribute__((swift_name("imageUrl")));
 @property (readonly) NSString *name __attribute__((swift_name("name")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PokemonDetailsResponse")))
+@interface SharedPokemonDetailsResponse : SharedBase
+- (instancetype)initWithName:(NSString *)name sprites:(SharedPokemonSprites *)sprites __attribute__((swift_name("init(name:sprites:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedPokemonDetailsResponseCompanion *companion __attribute__((swift_name("companion")));
+- (SharedPokemonDetailsResponse *)doCopyName:(NSString *)name sprites:(SharedPokemonSprites *)sprites __attribute__((swift_name("doCopy(name:sprites:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) SharedPokemonSprites *sprites __attribute__((swift_name("sprites")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PokemonDetailsResponse.Companion")))
+@interface SharedPokemonDetailsResponseCompanion : SharedBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedPokemonDetailsResponseCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
@@ -287,12 +342,66 @@ __attribute__((swift_name("PokemonResult.Companion")))
 - (id<SharedKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PokemonSprites")))
+@interface SharedPokemonSprites : SharedBase
+- (instancetype)initWithOther:(SharedOtherSprites * _Nullable)other __attribute__((swift_name("init(other:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedPokemonSpritesCompanion *companion __attribute__((swift_name("companion")));
+- (SharedPokemonSprites *)doCopyOther:(SharedOtherSprites * _Nullable)other __attribute__((swift_name("doCopy(other:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) SharedOtherSprites * _Nullable other __attribute__((swift_name("other")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PokemonSprites.Companion")))
+@interface SharedPokemonSpritesCompanion : SharedBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedPokemonSpritesCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PokemonViewModel")))
 @interface SharedPokemonViewModel : SharedBase
 - (instancetype)initWithHttpClientProvider:(id<SharedHttpClientProvider>)httpClientProvider __attribute__((swift_name("init(httpClientProvider:)"))) __attribute__((objc_designated_initializer));
 - (void)onCleared __attribute__((swift_name("onCleared()")));
 @property (readonly) SharedCommonFlow<NSArray<SharedPokemon *> *> *pokemonList __attribute__((swift_name("pokemonList")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ShowdownSprites")))
+@interface SharedShowdownSprites : SharedBase
+- (instancetype)initWithFrontDefault:(NSString * _Nullable)frontDefault __attribute__((swift_name("init(frontDefault:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedShowdownSpritesCompanion *companion __attribute__((swift_name("companion")));
+- (SharedShowdownSprites *)doCopyFrontDefault:(NSString * _Nullable)frontDefault __attribute__((swift_name("doCopy(frontDefault:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString * _Nullable frontDefault __attribute__((swift_name("frontDefault")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ShowdownSprites.Companion")))
+@interface SharedShowdownSpritesCompanion : SharedBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedShowdownSpritesCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
