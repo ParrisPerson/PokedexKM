@@ -12,7 +12,7 @@ import kotlinx.coroutines.flow.shareIn
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.flow.MutableStateFlow
-
+import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 
 class PokemonViewModel(
@@ -21,17 +21,20 @@ class PokemonViewModel(
     private val viewModelScope = CoroutineScope(SupervisorJob() + Dispatchers.Main)
 
     private val _pokemonList = MutableStateFlow<List<Pokemon>>(emptyList())
-    val pokemonList = _pokemonList.asCommonFlow() // Convierte a CommonFlow
+    val pokemonList: StateFlow<List<Pokemon>> get() = _pokemonList
+    var isLoading: Boolean = true
 
     init {
-        fetchPokemonList()
+       // fetchPokemonList(gen = 1)
     }
 
-    private fun fetchPokemonList() {
+    fun fetchPokemonsByGeneration(gen: Int) {
+        isLoading = true
         viewModelScope.launch {
             val repository = PokemonRepository(httpClientProvider)
-            repository.getPokemonList().collect { pokemon ->
+            repository.getPokemonByGeneration(gen = gen).collectLatest { pokemon ->
                 _pokemonList.value = pokemon
+                isLoading = false
             }
         }
     }

@@ -15,6 +15,26 @@
     "swift-dependencies" : "/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
     "swiftmodule" : "/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
   },
+  "/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/iosApp/iosApp/Components/PokeCell.swift" : {
+    "const-values" : "/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/arm64/PokeCell.swiftconstvalues",
+    "dependencies" : "/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/arm64/PokeCell.d",
+    "diagnostics" : "/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/arm64/PokeCell.dia",
+    "index-unit-output-path" : "/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/arm64/PokeCell.o",
+    "llvm-bc" : "/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/arm64/PokeCell.bc",
+    "object" : "/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/arm64/PokeCell.o",
+    "swift-dependencies" : "/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/arm64/PokeCell.swiftdeps",
+    "swiftmodule" : "/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/arm64/PokeCell~partial.swiftmodule"
+  },
+  "/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/iosApp/iosApp/Components/PokeImage.swift" : {
+    "const-values" : "/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/arm64/PokeImage.swiftconstvalues",
+    "dependencies" : "/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/arm64/PokeImage.d",
+    "diagnostics" : "/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/arm64/PokeImage.dia",
+    "index-unit-output-path" : "/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/arm64/PokeImage.o",
+    "llvm-bc" : "/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/arm64/PokeImage.bc",
+    "object" : "/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/arm64/PokeImage.o",
+    "swift-dependencies" : "/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/arm64/PokeImage.swiftdeps",
+    "swiftmodule" : "/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/arm64/PokeImage~partial.swiftmodule"
+  },
   "/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/iosApp/iosApp/ContentView.swift" : {
     "const-values" : "/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/arm64/ContentView.swiftconstvalues",
     "dependencies" : "/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/build/ios/iosApp.build/Debug-iphonesimulator/iosApp.build/Objects-normal/arm64/ContentView.d",

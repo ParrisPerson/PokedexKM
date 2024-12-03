@@ -3,32 +3,32 @@
 3    package="org.parris.pokedexkm.test" >
 4
 5    <uses-sdk
-5-->/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest2439660766249214254.xml:5:5-74
+5-->/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5389745072593806020.xml:5:5-74
 6        android:minSdkVersion="24"
-6-->/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest2439660766249214254.xml:5:15-41
+6-->/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5389745072593806020.xml:5:15-41
 7        android:targetSdkVersion="34" />
-7-->/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest2439660766249214254.xml:5:42-71
+7-->/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5389745072593806020.xml:5:42-71
 8
 9    <instrumentation
-9-->/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest2439660766249214254.xml:11:5-15:70
+9-->/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5389745072593806020.xml:11:5-15:70
 10        android:name="android.test.InstrumentationTestRunner"
-10-->/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest2439660766249214254.xml:11:22-75
+10-->/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5389745072593806020.xml:11:22-75
 11        android:functionalTest="false"
-11-->/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest2439660766249214254.xml:14:22-52
+11-->/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5389745072593806020.xml:14:22-52
 12        android:handleProfiling="false"
-12-->/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest2439660766249214254.xml:13:22-53
+12-->/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5389745072593806020.xml:13:22-53
 13        android:label="Tests for org.parris.pokedexkm"
-13-->/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest2439660766249214254.xml:15:22-68
+13-->/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5389745072593806020.xml:15:22-68
 14        android:targetPackage="org.parris.pokedexkm" />
-14-->/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest2439660766249214254.xml:12:22-66
+14-->/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5389745072593806020.xml:12:22-66
 15
 16    <application
-16-->/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest2439660766249214254.xml:7:5-9:19
+16-->/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5389745072593806020.xml:7:5-9:19
 17        android:debuggable="true"
 18        android:extractNativeLibs="false" >
 19        <uses-library android:name="android.test.runner" />
-19-->/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest2439660766249214254.xml:8:9-60
-19-->/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest2439660766249214254.xml:8:23-57
+19-->/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5389745072593806020.xml:8:9-60
+19-->/Users/parris.person/Documents/KotlinMultiplatform/PokedexKM/composeApp/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5389745072593806020.xml:8:23-57
 20    </application>
 21
 22</manifest>

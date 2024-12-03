@@ -10,20 +10,35 @@ import kotlinx.serialization.Serializable
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.coroutineScope
-
+import kotlinx.coroutines.flow.collectLatest
 
 
 class PokemonRepository(httpClientProvider: HttpClientProvider) {
     private val client: HttpClient = httpClientProvider.createHttpClient()
 
-    fun getPokemonList(): Flow<List<Pokemon>> = flow {
-        val response: PokemonListResponse = client.get("https://pokeapi.co/api/v2/pokemon?limit=151").body()
+    fun getPokemonList(gen: Int): Flow<List<Pokemon>> = flow {
+        val response: GenerationResponse = client.get("https://pokeapi.co/api/v2/generation/$gen").body()
         val pokemonList = coroutineScope {
-            response.results.map { result ->
+            response.pokemon_species.map { result ->
                 async { fetchPokemonDetails(result.name) } // Llamadas paralelas
             }.awaitAll() // Espera a que todas terminen
         }
         emit(pokemonList)
+    }
+
+    fun getPokemonByGeneration(gen: Int): Flow<List<Pokemon>> = flow {
+        val url = "https://pokeapi.co/api/v2/generation/$gen"
+        val response: GenerationResponse = client.get(url).body()
+        emit(response.pokemon_species.map {
+            Pokemon(
+                name = it.name.capitalize(),
+                imageUrl = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/${extractIdFromUrl(it.url)}.gif"
+            )
+        })
+    }
+
+    private fun extractIdFromUrl(url: String): String {
+        return url.split("/").dropLast(1).last()
     }
 
     private suspend fun fetchPokemonDetails(name: String): Pokemon {
@@ -45,6 +60,17 @@ data class PokemonResult(val name: String)
 data class PokemonDetailsResponse(
     val name: String,
     val sprites: PokemonSprites
+)
+
+@Serializable
+data class GenerationResponse(
+    val pokemon_species: List<PokemonSpecies>
+)
+
+@Serializable
+data class PokemonSpecies(
+    val name: String,
+    val url: String // URL del detalle del Pokémon
 )
 
 @Serializable
